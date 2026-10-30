@@ -1,0 +1,18 @@
+# Liczba serc zycia na start (10 serc = 20 HP)
+default-hearts: 10
+minimum-hearts: 1
+maximum-hearts: 20
+
+# Przedmiot serca. Domyslnie RED_DYE; do wygladu 3D/ikony serca potrzebny jest resource pack.
+heart-item-material: RED_DYE
+heart-name: "&c❤ &lSERCE"
+heart-lore:
+  - "&7Po kliknieciu otrzymasz &c1 ❤"
+  - "&7Kliknij PPM, aby uzyc!"
+  - "&8Minecraft:affred_dye"
+  - "&8Komponenty: 11"
+
+# Gdy gracz ma juz minimum serc i zginie od innego gracza:
+# true = ban/eliminacja, false = nie traci kolejnego serca.
+ban-at-minimum: false
+elimination-message: "Utraciles wszystkie serca!"

@@ -1,0 +1,26 @@
+name: LifeSteal
+version: 2.0.0
+main: pl.piotruusmc.lifesteal.LifeStealPlugin
+api-version: '1.21'
+author: Piotruusmc
+description: LifeSteal z fizycznymi sercami jako przedmiotami
+commands:
+  wyplacserca:
+    description: Zamienia serca zycia na fizyczne przedmioty serca
+    usage: /wyplacserca <ilosc>
+  sercailosc:
+    description: Pokazuje serca zycia i fizyczne serca gracza
+    usage: /sercailosc <gracz>
+  sercadaj:
+    description: Daje graczowi fizyczne przedmioty serca
+    usage: /sercadaj <gracz> <ilosc>
+  sercazabierz:
+    description: Zabiera graczowi fizyczne przedmioty serca
+    usage: /sercazabierz <gracz> <ilosc>
+  sercaset:
+    description: Ustawia liczbe serc zycia gracza
+    usage: /sercaset <gracz> <ilosc>
+permissions:
+  lifesteal.admin:
+    description: Komendy administracyjne LifeSteal
+    default: op
